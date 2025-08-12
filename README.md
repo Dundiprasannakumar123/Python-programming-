@@ -29,3 +29,18 @@ print(f"The number of digits in {num}:",count)
 
 
 <img width="1915" height="402" alt="image" src="https://github.com/user-attachments/assets/cf3562a4-00ca-475f-a7b4-420e61a7f3ac" />
+
+
+
+PROBLEM STATEMENT-3
+WRITE A PROGRAM TO PRINT TABLES.
+
+num = int(input()) 
+for i in range(1, 11):      
+   print (num, 'x', i, '=', num * i)
+
+
+
+
+<img width="1918" height="830" alt="image" src="https://github.com/user-attachments/assets/d1d07f26-abea-440d-99da-5c3909ef6ac5" />
+
