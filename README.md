@@ -7,7 +7,6 @@ else:
     print("odd") 
 
 
-
     
 <img width="962" height="296" alt="image" src="https://github.com/user-attachments/assets/04a07cfb-108e-47e1-bbd6-239782fe12f5" />
 
