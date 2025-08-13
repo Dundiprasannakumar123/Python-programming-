@@ -44,3 +44,32 @@ for i in range(1, 11):
 
 <img width="1918" height="830" alt="image" src="https://github.com/user-attachments/assets/d1d07f26-abea-440d-99da-5c3909ef6ac5" />
 
+
+PROBLEM STATEMENT-4
+WRITE A PROGRAM TO FIND FACTORIAL OF A NUMBER.
+
+n=int(input())
+f=1
+for i in range(1, n + 1):
+   f*=i
+print(f)
+
+
+<img width="1918" height="545" alt="image" src="https://github.com/user-attachments/assets/743fdfbd-db7b-4c3c-af13-8c4397e940a3" />
+
+
+
+PROBLEM STATMENT-5
+WRITE A PROGRAM TO SWAP TWO NUMBERS.
+
+x=int(input())
+y=int(input())
+temp=x
+x=y
+y=temp
+print('The value of x after swapping: {}'.format(x))
+print('The value of y after swapping: {}'.format(y))
+
+
+<img width="1907" height="510" alt="image" src="https://github.com/user-attachments/assets/a911b457-134a-4c97-b4a2-a7d7cf26123f" />
+
