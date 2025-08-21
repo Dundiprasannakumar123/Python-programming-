@@ -73,3 +73,81 @@ print('The value of y after swapping: {}'.format(y))
 
 <img width="1907" height="510" alt="image" src="https://github.com/user-attachments/assets/a911b457-134a-4c97-b4a2-a7d7cf26123f" />
 
+
+
+
+
+PROBLEM STATMENT-6
+
+ Write a program to print given number is prime or not.
+a=int(input())
+c=0
+for i in range(1,a):
+    if a%i==0:
+        c=c+1
+if c>1:
+    print("not prime")
+else:
+    print("prime")
+
+
+<img width="1918" height="582" alt="image" src="https://github.com/user-attachments/assets/4ba22147-27f8-40ee-b3ae-3d52698be1ed" />
+
+
+
+PROBLEM STATMENT-7
+ Python program to check if year is a leap year or not.
+year=int(input())
+if(year % 400==0) and (year % 100==0):
+    print("{0} is a leap year".format(year))
+elif (year % 4 ==0) and (year % 100 != 0):
+    print("{0} is a leap year".format(year))
+else:
+    print("{0} is not a leap year".format(year))
+
+
+
+<img width="1917" height="748" alt="image" src="https://github.com/user-attachments/assets/10e781e7-2ba9-4ac3-ab6a-b43e71fb99e1" />
+
+
+PROBLEM STATMENT-8
+Python program to find the largest number among the three input numbers.
+a = float(input("Enter first number: "))
+b = float(input("Enter second number: "))
+c = float(input("Enter third number: "))
+if (a >= b) and (a >= c):
+   largest = a
+elif (b >= a) and (b >= c):
+   largest = b
+else:
+   largest = c
+print("The largest number is", largest)
+
+
+<img width="1912" height="721" alt="image" src="https://github.com/user-attachments/assets/9323bad1-5921-4025-9408-27e9d5dde34e" />
+
+
+
+
+PROBLEM STATMENT-9
+Python program to display all the prime numbers within an interval.
+
+l=int(input())
+u=int(input())
+for n in range(l,u+1):
+   if n > 1:
+       for i in range(2,n):
+           if (n % i) == 0:
+               break
+       else:
+           print(n)
+
+
+<img width="1918" height="672" alt="image" src="https://github.com/user-attachments/assets/ac29617a-e6b5-47b6-9d2f-7268250890f0" />
+
+
+
+
+
+
+
